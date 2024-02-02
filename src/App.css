@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto';
+}
+
+::selection {
+  background-color: #111111;
+  color: white;
+}
+
+.navbar {
+  background-color: #111111 !important;
+  padding: 15px 0 !important;
+}
+
+.nav-link {
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+/* bg-img start */
+
+.bg-img {
+  background-image: url('./images/bg-img.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: color;
+  height: 90vh;
+
+}
+
+.bg-txt {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  top: 65%;
+}
+
+.bg-txt h3 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.bg-txt p {
+  font-size: 19px;
+}
+
+.bg-btn {
+  position: absolute;
+  left: 30%;
+
+}
+
+.bg-btn button {
+  padding: 12px 20px;
+  background-color: #111111;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+@media(max-width:772.98px) {
+  .bg-img {
+    height: 100vh;
+  }
+}
+
+@media(max-width:512.98px) {
+  .bg-txt {
+    top: 0%;
+    width: 100%;
+  }
+
+  .bg-btn button {
+    display: none;
+  }
+}
+
+@media(max-width:991.98px) {
+  .bg-txt {
+    top: 0%;
+    width: 100%;
+    height: 90vh;
+  }
+}
+
+@media(max-width:772.98px) {
+  .bg-txt {
+    top: 0%;
+    width: 100%;
+  }
+}
+
+/* bg-img end */
+
+/* Gravity World start */
+
+.gw-heading {
+  font-size: 54px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+.c-gray{
+  color: gray;
+  margin-bottom: 12px;
+}
+
+/* Gravity World end */
+
+/* 350+ start */
+
+.pg-txt{
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.box{
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.img-center{
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+
+/* 350+ end */
+/* MAKE IT YOURS  start */
+
+.make-bg{
+  background-image: url('./images/bg-make.png');
+  width: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  margin-top: -16px;
+}
+
+.make-h3{
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.make-btn{
+    padding: 12px 22px;    
+    border: none;
+    color: #fff;
+    background-color: #111111;
+    border-radius: 6px;
+    font-size: 14px;
+    display: block;
+    margin: 22px auto;
+
+}
+
+/* MAKE IT YOURS  end*/
+
+/* footer start */
+
+.bg-color{
+  background-color: #111111;
+}
+
+.fo-color{
+  color: #fff;
+}
+
+.t-border{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  border-bottom: 1px solid #fff;
+}
+
+
+/* footer end */
